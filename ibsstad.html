@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Access - Border Surveillance</title>
+    <link rel="stylesheet" href="ibsstad.css">
+</head>
+<body>
+    <header>
+        <h1>Border Surveillance System</h1>
+    </header>
+    <main>
+        <div id="cam">
+        <section id="live-feed">
+            <h2>Live Surveillance Feed</h2>
+            <video id="webcam" autoplay playsinline></video>
+            <p id="status">Initializing webcam...</p>
+        </section>
+        <section id="controls">
+            <h2>System Controls</h2>
+            <button onclick="stopWebcam()">Stop Webcam</button>
+            <button onclick="startWebcam()">Start Webcam</button>
+        </section>
+    </div>
+    <section id="info-section">
+        <h2>System Info</h2>
+        <div class="info-item">
+            <strong>Date:</strong> <span id="current-date">Loading...</span>
+        </div>
+        <div class="info-item">
+            <strong>Time:</strong> <span id="current-time">Loading...</span>
+        </div>
+        <div class="info-item">
+            <strong>Location:</strong> <span id="current-location">Loading...</span>
+        </div>
+        <img src="earth-political-rotation.gif">
+    </section>
+    
+    </main>
+    <script src="ibsstad.js"></script>
+</body>
+</html>

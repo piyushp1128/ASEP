@@ -1,0 +1,97 @@
+
+        /* General styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: aliceblue;
+        }
+    
+        /* Header styling */
+        header {
+            background-color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        header img {
+            width: 80%;
+            max-width: 100px;
+            max-height: 100px;
+            height: auto;
+        }
+
+        header h1 {
+            color: #003366;
+            margin: 1rem 0;
+        }
+
+        /* Navigation styling */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        nav a button {
+            font-size: large;
+            padding: 0.5rem 1rem;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        nav a button:hover {
+            transform: scale(1.1);
+            background-color: #000f1e;
+        }
+
+        /* Main content styling */
+        main {
+            text-align: center;
+            padding: 2rem;
+            background-color: #003366;
+        }
+
+        /* Login form styling */
+        .login-form {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2rem;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 2rem auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .login-form input {
+            width: 90%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: 2px solid #003366;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 0.8rem;
+            font-size: 1rem;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .login-form button:hover {
+            background-color: #ffcc00;
+        }
+
+        .login-form h2 {
+            color: #fff;
+            margin-bottom: 1rem;
+        }

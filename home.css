@@ -1,0 +1,116 @@
+
+html {
+    scroll-padding-top: 70px; 
+    scroll-behavior: smooth; 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000;
+}
+
+h2 {
+    color: #002147;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffcc00; 
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 40px); 
+    height: 100px;
+    background-color: #002147; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.logo img {
+    margin: 0 30px;
+    height: 100px;
+    width: auto;  
+}
+
+.logo span {
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.login-button {
+    background-color: #ffffff;
+    color: #002147;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease ; 
+}
+
+.login-button:hover {
+    background-color: #ffcc00;
+    color: #ffffff;
+    transform: scale(1.15);
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 100px; 
+    left: 0;
+    width: 200px;
+    height: calc(100% - 100px);  
+    background-color: #002147; 
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.sidebar a {
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+
+.content {
+    margin-left: 200px; 
+    margin-top: 100px; 
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
